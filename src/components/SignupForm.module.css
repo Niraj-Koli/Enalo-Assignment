@@ -1,0 +1,80 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 169px;
+    padding: 50px;
+}
+
+.formHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formTitle {
+    font-family: Avenir LT Std;
+    font-size: 35.35px;
+    font-weight: 750;
+    line-height: 42.42px;
+    text-align: left;
+}
+
+.formSubtitle {
+    font-family: Avenir LT Std;
+    font-size: 15.71px;
+    font-weight: 750;
+    line-height: 18.85px;
+    text-align: right;
+}
+
+.spanTitle {
+    font-family: Avenir LT Std;
+    font-size: 15.71px;
+    font-weight: 750;
+    line-height: 18.85px;
+    text-align: right;
+    color: #17b582;
+}
+
+.textfield {
+    width: 544px;
+    height: 52.84px;
+    border-radius: 133px;
+    padding: 12px 26px 12px 26px;
+}
+
+.button {
+    background-color: #17b582;
+    width: 544px;
+    height: 52.84px;
+    border-radius: 133px;
+    border: 1px solid;
+    padding: 12px 26px 12px 26px;
+}
+
+.groupContainer {
+    width: 544px;
+    height: 190.84px;
+    top: 371px;
+    left: 824px;
+    padding: 0px;
+    gap: 0px;
+    border-radius: 133px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.rememberMe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: red;
+    border-color: red;
+}
